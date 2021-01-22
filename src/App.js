@@ -1,15 +1,18 @@
-import React from 'react';
-import './App.css'
-import Header from './components/header/Header'
-import Sidebar from './components/sidebar/sidebar';
+import { render } from "@testing-library/react";
+import React from "react";
+import "./App.css";
+import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/sidebar";
 
-export default class App extends React.Component{
-    render(){
-        return(
-            <div>
-                <Header/>
-                 <Sidebar/>
-            </div>
-        )
-    }
+
+function App(){
+      return(
+          <div>
+            <Header />
+            <Sidebar />
+          </div>
+      ) 
+      
 }
+export default App;
+

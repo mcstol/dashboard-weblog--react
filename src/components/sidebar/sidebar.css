@@ -1,6 +1,8 @@
 sidebar{
+    box-sizing: border-box;
     display: block;
-    height: 100%;
-    width: 200px;
+    flex-direction: column;
+    height: calc(100% - 70px);
+    width: 120px;
     background-color: #0b07e7;
 }

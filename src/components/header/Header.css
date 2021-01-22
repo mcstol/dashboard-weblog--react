@@ -2,9 +2,7 @@ container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
     height: 70px;
-    /* background-color: #0b07e7; */
     width: 100%;
 }
 logo{   
@@ -12,7 +10,8 @@ logo{
     width: 120px;
 }
 titlebar{
+    align-items: center;
     background-color: #0b07e7;
-    height: 70px;
+    height: 100%;
     width: calc(100% - 120px);
 }
